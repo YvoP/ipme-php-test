@@ -13,6 +13,7 @@ include __DIR__ . '/components/header.php'; ?>
 <?php if (!$cocktails): ?>
     <p class="h2 py-4">Aucun cocktail n'est trouvé</p>
 <?php else: ?>
+    <p class="h2 py-4">Cocktails insérés dans la base de donnée</p>
     <?php foreach ($cocktails as $cocktail): ?>
         <?php include __DIR__ . '/components/cocktail-item-db.php'; ?>
     <?php endforeach; ?>
