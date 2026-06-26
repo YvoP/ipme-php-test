@@ -7,7 +7,7 @@ include __DIR__ . '/components/header.php'; ?>
 </div>
 
 <div class="row">
-    <div class="col-6"><a href="list.php" class="btn btn-secondary">Liste des cocktails enregistrés</a></div>
+    <div class="col-6l"><a href="list.php" class="btn btn-secondary">Liste des cocktails enregistrés</a></div>
     <div class="col-6">
         <form action="search.php" method="POST">
             <div class="row g-3 align-items-center">
